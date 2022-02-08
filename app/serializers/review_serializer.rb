@@ -4,4 +4,5 @@ class ReviewSerializer < ActiveModel::Serializer
   has_one :game
   has_one :movie
   has_one :book
+  d
 end
