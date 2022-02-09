@@ -2,9 +2,8 @@
     width: 100%;
     height: 240px;
     background-image: url(https://media1.giphy.com/media/NKEt9elQ5cR68/giphy.gif?cid=790b7611925abb3aa9c48627f8a7b2e2bae22e7d70a83619&rid=giphy.gif&ct=g);
-    background-repeat: no-repeat;
-    background-size:100% 100%;
-    background-origin: content-box;
+    background-repeat: round;
+    background-origin: content-box; 
 }
 
 .div-container{
@@ -20,6 +19,10 @@
 
 .div-style {
     text-align: center;
+}
+
+a{
+    color:ghostwhite;
 }
 
 .background{
