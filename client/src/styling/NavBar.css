@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav a {
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .nav a.active {
+    color: skyblue;
+  }
+  .nav a.inactive {
+    font-style: italic;
+  }
+  

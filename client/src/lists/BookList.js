@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from "react";
-import BookCard from "./BookCard";
+import BookCard from "../cards/BookCard";
+import NavBar from "../NavBar";
 
 
 function BookList() {
     const [bookData, setBookData] = useState( [] );
-    console.log(bookData)
 
     const fetchFunction = () => {
         fetch('http://127.0.0.1:3000/books')
@@ -13,14 +13,14 @@ function BookList() {
     }
     useEffect(fetchFunction, [])
 
-
     return (
         <div>
+            <NavBar/>
 
             { bookData.map(
                 (eachBook) => {
 
-                    return (<BookCard key={eachBook.id} bookData={eachBook}/>)
+                    return (<BookCard key={eachBook.id} bookItem={eachBook}/>)
                 })
 
 

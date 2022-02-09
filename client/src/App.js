@@ -1,11 +1,11 @@
 import {BrowserRouter, Switch, Route} from "react-router-dom"
 
 
-import GameList from './GameList';
-import MovieList from './MovieList';
-import BookList from './BookList';
+import GameList from './lists/GameList';
+import MovieList from './lists/MovieList';
+import BookList from './lists/BookList';
 import NavBar from './NavBar';
-import ReviewList from "./ReviewList";
+import ReviewList from "./lists/ReviewList";
 
 
 function App() {
@@ -13,8 +13,6 @@ function App() {
     <BrowserRouter>
     <div>
       
-      <NavBar/>
-  
       <Switch>
        
     

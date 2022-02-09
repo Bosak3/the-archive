@@ -1,0 +1,15 @@
+.items{
+    height: 225px;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+}

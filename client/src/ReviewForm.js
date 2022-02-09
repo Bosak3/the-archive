@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function ReviewForm ({gameData}, {bookData},) {
+function ReviewForm ({gameData, bookData, movieData}) {
 
     const [reviewFormData, setReviewFormData] = useState ({
         description:"",
@@ -8,6 +8,7 @@ function ReviewForm ({gameData}, {bookData},) {
         book_id: null
     })
     console.log(reviewFormData)
+    // console.log(movieData)
     
 
     function checkKindOfData(){
@@ -18,6 +19,22 @@ function ReviewForm ({gameData}, {bookData},) {
                         ...reviewFormData, game_id: gameData.id
                     }
                 );
+            }
+        else if (bookData)
+            {
+                setReviewFormData(
+                    {
+                        ...reviewFormData, book_id: bookData.id
+                    }
+                )
+            }
+        else if (movieData)
+            {
+                setReviewFormData(
+                    {
+                        ...reviewFormData, movie_id: movieData.id
+                    }
+                )
             }
 
     }

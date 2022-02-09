@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
-import MovieCard from "./MovieCard";
+import MovieCard from "../cards/MovieCard";
+import NavBar from "../NavBar";
 
 function MovieList() {
     const [movieData, setMovieData] = useState( [] );
@@ -15,7 +16,7 @@ function MovieList() {
 
     return (
         <div>
-
+            <NavBar/>
             { movieData.map(
                 (eachMovie) => {
 

@@ -1,4 +1,4 @@
-import "./ItemImages.css"
+import "../styling/ItemImages.css"
 
 function ReviewCard ({reviewData}){
 

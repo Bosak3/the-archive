@@ -1,5 +1,5 @@
-import "./ItemImages.css"
-import ReviewForm from "./ReviewForm"
+import "../styling/ItemImages.css"
+import ReviewForm from "../ReviewForm"
 
 function GameCard ({gameData}){
 

@@ -1,11 +1,10 @@
 import React, {useState, useEffect} from 'react'
-import ReviewCard from './ReviewCard';
+import ReviewCard from '../cards/ReviewCard';
+import NavBar from '../NavBar';
 
 function ReviewList() {
 
   const [reviewData, setReviewData] = useState([]);
-    console.log(reviewData)
-
  
   const fetchFunction = () => {
     fetch('http://127.0.0.1:3000/reviews')
@@ -15,15 +14,19 @@ useEffect(fetchFunction, [])
 
 
 return (
-  <div className="PlatformList">
-      {reviewData.map(
+  <div>
+      <NavBar/>
+
+      { reviewData.map(
           
         (eachReview) => {
 
             return (<ReviewCard key={eachReview.id} reviewData={eachReview}/>)
+          }
+        )
+      }
 
 
-      })}
       
     </div>
     )
