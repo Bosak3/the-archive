@@ -3,7 +3,6 @@ import ReviewForm from "./ReviewForm"
 
 function MovieCard ({movieData}){
 
-
     return (
         <div>
             <h1>{movieData.title}</h1>
@@ -13,7 +12,7 @@ function MovieCard ({movieData}){
             <h3>{movieData.director}</h3>
             <h3>{movieData.release_year}</h3>
             <a href={movieData.purchase_url}>Watch</a>
-            <ReviewForm />
+            <ReviewForm movieData={movieData}/>
         </div>
 
     )

@@ -13,7 +13,7 @@ function BookCard ({bookData}){
             <h3>{bookData.author}</h3>
             <h3>{bookData.release_year}</h3>
             <a href={bookData.purchase_url}>Read</a>
-            <ReviewForm/>
+            <ReviewForm bookData={bookData}/>
         </div>
 
     )

@@ -1,21 +1,24 @@
 import React, { useState, useEffect } from "react";
 
-function ReviewForm ({gameData}) {
+function ReviewForm ({gameData}, {bookData},) {
+
     const [reviewFormData, setReviewFormData] = useState ({
         description:"",
-        game_id: null
+        game_id: null,
+        book_id: null
     })
     console.log(reviewFormData)
     
 
     function checkKindOfData(){
-        if (gameData){
-            setReviewFormData(
-                {
-                    ...reviewFormData, game_id: gameData.id
-                }
-            ); 
-        }
+        if (gameData)
+            {
+                setReviewFormData(
+                    {
+                        ...reviewFormData, game_id: gameData.id
+                    }
+                );
+            }
 
     }
     useEffect(checkKindOfData, [])

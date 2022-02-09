@@ -5,7 +5,7 @@ function ReviewCard ({reviewData}){
 
     return (
         <div>
-            {/* <img src={reviewData.game.image_url} alt={reviewData.movie.title} className="items"/> */}
+            {/* <img src={reviewData.image_url} alt={reviewData.title} className="items"/> */}
             <p>{reviewData.description}</p>
         </div>
 
