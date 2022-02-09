@@ -4,7 +4,6 @@ import {BrowserRouter, Switch, Route} from "react-router-dom"
 import GameList from './lists/GameList';
 import MovieList from './lists/MovieList';
 import BookList from './lists/BookList';
-import NavBar from './NavBar';
 import ReviewList from "./lists/ReviewList";
 
 
