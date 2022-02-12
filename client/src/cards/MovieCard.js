@@ -6,7 +6,9 @@ function MovieCard ({movieData}){
     return (
         <div>
             <h1>{movieData.title}</h1>
-            <img src={movieData.image_url} alt={movieData.title} className="items"/>
+            <a href={movieData.purchase_url} rel="noopener noreferrer" target="_blank">
+                <img src={movieData.image_url} alt={movieData.title} className="items"/>
+            </a>
             <br></br>
             <h3>{movieData.genre}</h3>
             <h3>{movieData.director}</h3>

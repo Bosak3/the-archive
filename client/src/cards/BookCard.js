@@ -6,7 +6,9 @@ function BookCard ({bookItem}){
     return (
         <div>
             <h1>{bookItem.title}</h1>
-            <img src={bookItem.image_url} alt={bookItem.title} className="items"/>
+            <a href={bookItem.purchase_url} rel="noopener noreferrer" target="_blank">
+                <img src={bookItem.image_url} alt={bookItem.title}  className="items"/>
+            </a>
             <br></br>
             <h3>{bookItem.genre}</h3>
             <h3>{bookItem.author}</h3>
