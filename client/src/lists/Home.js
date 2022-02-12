@@ -5,9 +5,12 @@ function Home (){
 
     
     return (
-    <div className="home" >
+    <div className="backgroundhome" >
         <NavBar/>
-        <p>Welcome!</p>
+        <div>
+            <p>Welcome!</p>
+        </div>
+    
 
     </div>
 
