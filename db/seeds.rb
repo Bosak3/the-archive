@@ -16,7 +16,21 @@ puts "Seeding Books..."
 
 Book.destroy_all
 
-book1 = Book.create!(title:"Malazan Book of the Fallen (Complete Series)", author:"Steven Erickson", genre:"Military Fantasy", image_url:"https://m.media-amazon.com/images/I/51fEdoux39L.jpg", purchase_url: "https://www.amazon.com/Complete-Malazan-Book-Fallen-ebook/dp/B00HL0MA3W", release_year:"2014")
+book1 = Book.create!(title:"The Silmarillion", author:"J.R.R Tolkien (Christopher Tolkien)", genre:"Mythopoeia, Fantasy", image_url:"https://g.christianbook.com/dg/product/cbd/f450/135049.jpg", purchase_url: "https://www.barnesandnoble.com/w/silmarillion-j-r-r-tolkien/1002089300", release_year:"1977")
+
+book2 = Book.create!(title:"The Lord of the Rings: The Fellowship of the Ring", author:"J.R.R Tolkien", genre:"Fantasy Fiction", image_url:"https://m.media-amazon.com/images/I/41kUPvqlguL.jpg", purchase_url:"https://www.goodreads.com/book/show/3263607-the-fellowship-of-the-ring", release_year:"1954")
+
+book3 = Book.create!(title:"The Lord of the Rings: The Two Towers", author:"J.R.R Tolkien", genre:"Fantasy Fiction", image_url:"https://m.media-amazon.com/images/I/4123zOAwAgL.jpg", purchase_url:"https://www.barnesandnoble.com/w/two-towers-j-r-r-tolkien/1100014685", release_year:"1954")
+
+book4 = Book.create!(title:"The Lord of the Rings: The Return of the King", author:"J.R.R Tolkien", genre:"Fantasy Fiction", image_url:"https://m.media-amazon.com/images/I/41KGl2FqeAL.jpg", purchase_url:"https://www.barnesandnoble.com/w/return-of-the-king-j-r-r-tolkien/1100178475", release_year:"1955")
+
+book5 = Book.create!(title:"The Hobbit", author:"J.R.R Tolkien", genre:"Fantasy Fiction", image_url:"https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Hobbit_cover.JPG/170px-Hobbit_cover.JPG", purchase_url:"https://www.barnesandnoble.com/b/the-hobbit-collection/_/N-1gt1", release_year:"1937")
+
+book6 = Book.create!(title:"The Witcher: The Last Wish", author:"Andrzej Sapkowski", genre:"Fantasy", image_url:"https://upload.wikimedia.org/wikipedia/en/1/14/Andrzej_Sapkowski_-_The_Last_Wish.jpg", purchase_url:"https://www.barnesandnoble.com/w/last-wish-andrzej-sapkowski/1101952206", release_year:"1994")
+
+book7 = Book.create!(title:"Gardens of the Moon (Malazan BOF)", author:"Steven Erickson", genre:"High Fantasy", image_url:"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548497031l/55399._SY475_.jpg", purchase_url: "https://www.amazon.com/dp/B0031RS64G/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1", release_year:"1999")
+
+book8 = Book.create!(title:"Dead House Gates (Malazan BOF)", author:"Steven Erickson", genre:"High Fantasy", image_url:"https://covers4.booksamillion.com/covers/bam/0/76/531/429/0765314290_b.jpg", purchase_url:"https://www.barnesandnoble.com/w/deadhouse-gates-steven-erikson/1100356058", release_year:"2000")
 
 puts "Seeding Games..."
 

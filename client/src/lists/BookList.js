@@ -2,6 +2,8 @@ import React, {useState, useEffect} from "react";
 import BookCard from "../cards/BookCard";
 import NavBar from "../NavBar";
 
+import '../styling/Book.css'
+
 
 function BookList() {
     const [bookData, setBookData] = useState( [] );
@@ -14,17 +16,26 @@ function BookList() {
     useEffect(fetchFunction, [])
 
     return (
-        <div>
+        <div className="backgroundbooks">
+            <div className="bannerimagebooks"></div>
             <NavBar/>
+
+            <div className="div-container">
 
             { bookData.map(
                 (eachBook) => {
 
-                    return (<BookCard key={eachBook.id} bookItem={eachBook}/>)
+                    return (
+                        <div className="div-style">
+                            <BookCard key={eachBook.id} bookItem={eachBook}/>
+                        </div>
+                    
+                    )
                 })
 
 
             }
+            </div>
 
         </div>
     )

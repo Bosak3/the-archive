@@ -5,6 +5,7 @@ import GameList from './lists/GameList';
 import MovieList from './lists/MovieList';
 import BookList from './lists/BookList';
 import ReviewList from "./lists/ReviewList";
+import Home from "./lists/Home";
 
 
 function App() {
@@ -30,6 +31,12 @@ function App() {
         <Route exact path="/reviews">
           <ReviewList/>
         </Route>
+
+        <Route exact path="/">
+          <Home/>
+        </Route>
+
+        
       </Switch>
        
     </div>

@@ -6,6 +6,8 @@ function NavBar() {
 
     return(
       <div className="nav">
+        <NavLink to="/" exact className="nav">Home</NavLink>
+        
         <NavLink to="/games" exact className="nav">Games</NavLink>
         <br></br>
         <NavLink to="/books" exact>Books</NavLink>
@@ -13,7 +15,7 @@ function NavBar() {
         <NavLink to="/movies" exact>Movies</NavLink>
         <br></br>
         <NavLink to="/reviews" exact>Reviews</NavLink>
-        
+        <br></br>
       </div>
 
 
