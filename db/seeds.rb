@@ -84,4 +84,8 @@ Review.destroy_all
 review1 = Review.create!(description: "Lovingly crafted animated classic following the adventures of Bilbo Baggins from J.R.R Tolkiens beloved fantasy epic 'The Hobbit'.", movie_id: movie1.id, user_id: user1.id)
 
 
+
+
+
+
 puts "Done seeding :)!"

@@ -26,7 +26,7 @@ function BookList() {
                 (eachBook) => {
 
                     return (
-                        <div className="div-style">
+                        <div  key={eachBook.id} className="div-style">
                             <BookCard key={eachBook.id} bookItem={eachBook}/>
                         </div>
                     

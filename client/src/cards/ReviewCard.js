@@ -1,12 +1,18 @@
 import "../styling/ItemImages.css"
 
-function ReviewCard ({reviewData}){
 
+function ReviewCard ({reviewData}){
+    console.log(reviewData)
 
     return (
-        <div>
-            {/* <img src={reviewData.image_url} alt={reviewData.title} className="items"/> */}
-            <p>{reviewData.description}</p>
+        <div className="div-container">
+            <div className="div-style">
+                <h1>{reviewData.movie.title}</h1>
+                <img src={reviewData.movie.image_url} alt={reviewData.movie.title} className="items"/>
+                <p>{reviewData.description}</p>
+
+            </div>
+            
         </div>
 
     )

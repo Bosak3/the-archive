@@ -1,0 +1,21 @@
+.div-container{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.div-container>.div-style {
+    flex: 1 1 20%;
+    margin: 5px;
+    padding: 10px;
+    
+  }
+
+.div-style {
+    text-align: center;
+}
+
+a{
+    color:ghostwhite;
+}
+

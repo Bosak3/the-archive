@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react'
 import ReviewCard from '../cards/ReviewCard';
 import NavBar from '../NavBar';
 
+import "../styling/ReviewList.css"
+
 function ReviewList() {
 
   const [reviewData, setReviewData] = useState([]);
@@ -16,15 +18,20 @@ useEffect(fetchFunction, [])
 return (
   <div>
       <NavBar/>
+      <div className='div-container'>
+        { reviewData.map(
+            
+          (eachReview) => {
 
-      { reviewData.map(
-          
-        (eachReview) => {
-
-            return (<ReviewCard key={eachReview.id} reviewData={eachReview}/>)
-          }
-        )
-      }
+              return (
+              <div key={eachReview.id}  className= "div-style">
+                <ReviewCard key={eachReview.id} reviewData={eachReview}/>
+              </div>
+              )
+            }
+          )
+        }
+      </div>
 
 
       

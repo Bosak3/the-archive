@@ -5,7 +5,8 @@ function ReviewForm ({gameData, bookData, movieData}) {
     const [reviewFormData, setReviewFormData] = useState ({
         description:"",
         game_id: null,
-        book_id: null
+        book_id: null,
+        movie_id: null
     })
     console.log(reviewFormData)
     // console.log(movieData)

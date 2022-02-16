@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import GameCard from "../cards/GameCard";
 import NavBar from "../NavBar";
 
+
 import "../styling/GameList.css"
 
 
@@ -25,7 +26,7 @@ function GameList() {
                     (eachGame) => {
 
                         return (
-                        <div className="div-style">
+                        <div key={eachGame.id} className="div-style">
                             <GameCard key={eachGame.id} gameData={eachGame} />
                         </div>
                         )
