@@ -7,9 +7,9 @@ function ReviewCard ({reviewData}){
     return (
         <div className="div-container">
             <div className="div-style">
-                <h1>{reviewData.movie.title}</h1>
+                <h1 style ={{color:'white'}}>{reviewData.movie.title}</h1>
                 <img src={reviewData.movie.image_url} alt={reviewData.movie.title} className="items"/>
-                <p>{reviewData.description}</p>
+                <p >{reviewData.description}</p>
 
             </div>
             

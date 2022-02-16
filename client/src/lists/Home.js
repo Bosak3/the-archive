@@ -1,12 +1,12 @@
-import NavBar from "../NavBar"
 import '../styling/Home.css'
+
 
 function Home (){
 
     
     return (
-    <div className="backgroundhome" >
-        <img src='https://www.pngplay.com/wp-content/uploads/12/Bank-Vault-PNG-Photos.png' className="vaultimage"/>
+    <div className="backgroundhome">
+        <img src='https://thumbs.gfycat.com/DemandingLegalFeline-max-1mb.gif' className="vaultimage"/>
         <br></br>
         <br></br>
         <br></br>

@@ -1,9 +1,10 @@
 .div-container{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
+ 
 }
-
+   
 .div-container>.div-style {
     flex: 1 1 20%;
     margin: 5px;
@@ -15,7 +16,18 @@
     text-align: center;
 }
 
+.div-style p {
+    color: white;
+}
+
 a{
     color:ghostwhite;
 }
 
+.backgroundreview{
+
+    background-image:url(https://cdn.dribbble.com/users/336977/screenshots/2040007/dungeon_preview_dribbble.gif);
+    background-repeat: no-repeat;
+    background-origin: content-box; 
+    background-size:100% 100%;
+}
