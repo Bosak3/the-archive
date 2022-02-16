@@ -1,7 +1,7 @@
 .nav {
     display: flex;
     flex-direction: row;
-    background-color: black;
+    /* background-color: black; */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,5 +19,8 @@
   }
   .nav a.inactive {
     font-style: italic;
+  }
+  .backgroundnavbar{
+    background-image: url(https://thumbs.gfycat.com/RingedSpicyKodiakbear-size_restricted.gif)
   }
   

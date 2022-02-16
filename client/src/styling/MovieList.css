@@ -1,0 +1,37 @@
+.bannerimagemovies{
+    width: 100%;
+    height: 452px;
+    background-image: url(https://www.teahub.io/photos/full/40-403913_2048x1536-movie-theatre-wallpaper-movie-theatre-wallpapers-movie.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box; 
+    background-size:100% 100%;
+    overflow: hidden;
+    
+}
+
+.div-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.div-container>.div-style {
+    flex: 1 1 20%;
+    margin: 5px;
+    padding: 10px;
+    
+  }
+
+.div-style {
+    text-align: center;
+}
+
+a{
+    color:ghostwhite;
+}
+
+.backgroundmovies{
+    background-image: url(background: rgb(18,69,110);
+    background: linear-gradient(180deg, rgba(18,69,110,1) 0%, rgba(9,9,121,1) 21%, rgba(35,135,182,0.9360119047619048) 100%);
+ 
+
+}

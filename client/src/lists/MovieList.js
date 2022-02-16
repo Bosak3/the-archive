@@ -2,6 +2,8 @@ import React, {useState, useEffect} from "react";
 import MovieCard from "../cards/MovieCard";
 import NavBar from "../NavBar";
 
+import '../styling/MovieList.css'
+
 function MovieList() {
     const [movieData, setMovieData] = useState( [] );
     console.log(movieData)
@@ -15,16 +17,24 @@ function MovieList() {
 
 
     return (
-        <div>
-            <NavBar/>
-            { movieData.map(
-                (eachMovie) => {
+        <div className="backgroundmovies">
+            <div className="bannerimagemovies"></div>
+                 <NavBar/>
 
-                    return (<MovieCard key={eachMovie.id} movieData={eachMovie}/>)
-                })
+            <div className="div-container">
+                { movieData.map(
+                    (eachMovie) => {
+
+                        return (
+                        <div className="div-style">
+                            <MovieCard key={eachMovie.id} movieData={eachMovie}/>
+                        </div>
+                        )
+                    })
 
 
-            }
+                }
+            </div>
 
         </div>
     )
