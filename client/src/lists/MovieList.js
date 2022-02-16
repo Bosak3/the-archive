@@ -20,7 +20,7 @@ function MovieList() {
         <div className="backgroundmovies">
             <div className="bannerimagemovies"></div>
                  <NavBar/>
-
+            <h1 style={{color: 'white', textAlign: 'center', fontSize: 40}}>MOVIES</h1>
             <div className="div-container">
                 { movieData.map(
                     (eachMovie) => {

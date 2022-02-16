@@ -19,7 +19,7 @@ function BookList() {
         <div className="backgroundbooks">
             <div className="bannerimagebooks"></div>
             <NavBar/>
-
+            <h1 style={{color: 'white', textAlign: 'center', fontSize: 40}}>BOOKS</h1>
             <div className="div-container">
 
             { bookData.map(

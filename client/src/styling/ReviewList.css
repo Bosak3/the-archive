@@ -16,17 +16,14 @@
     text-align: center;
 }
 
-.div-style p {
-    color: white;
-}
 
 a{
     color:ghostwhite;
 }
 
 .backgroundreview{
-
-    background-image:url(https://cdn.dribbble.com/users/336977/screenshots/2040007/dungeon_preview_dribbble.gif);
+    background-color: tan;
+    
     background-repeat: no-repeat;
     background-origin: content-box; 
     background-size:100% 100%;

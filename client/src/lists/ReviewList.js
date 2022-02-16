@@ -18,7 +18,7 @@ useEffect(fetchFunction, [])
 return (
   <div className='backgroundreview'>
       <NavBar/>
-      <h1 style={{color: 'white', fontSize: 40, textAlign: 'center'}}>Reviews</h1>
+      <h1 style={{color: 'black', fontSize: 40, textAlign: 'center'}}>Reviews</h1>
       <div className='div-container'>
         { reviewData.map(
             

@@ -4,7 +4,7 @@ import ReviewForm from "../ReviewForm"
 function MovieCard ({movieData}){
 
     return (
-        <div>
+        <div style={{color: 'white'}}>
             <h1>{movieData.title}</h1>
             <a href={movieData.purchase_url} rel="noopener noreferrer" target="_blank">
                 <img src={movieData.image_url} alt={movieData.title} className="items"/>

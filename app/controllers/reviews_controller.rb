@@ -13,7 +13,7 @@ end
 
 #------------------Create----------------------
 def create
-    review = Review.create(description: params[:description], game_id: params[:game_id], book_id: params[:book_id], user_id: User.first.id)
+    review = Review.create(description: params[:description], game_id: params[:game_id], book_id: params[:book_id], movie_id: params[:movie_id], user_id: User.first.id)
     render json: review, status: :created
     
 end

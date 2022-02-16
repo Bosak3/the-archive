@@ -21,6 +21,7 @@ function GameList() {
         <div className="background">
             <div className="bannerimage"></div>
             <NavBar/>
+            <h1 style={{color: 'white', textAlign: 'center', fontSize: 40}}>GAMES</h1>
             <div className="div-container">
                 { gameData.map(
                     (eachGame) => {

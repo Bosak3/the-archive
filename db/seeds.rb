@@ -12,27 +12,19 @@ Movie.destroy_all
 
 movie1 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
 
-movie2 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
+movie2 = Movie.create!(title:"Star Wars IV: A New Hope", director:"George Lucas", genre:"Sci-fi", release_year: "1977", purchase_url:"https://www.disneyplus.com/movies/star-wars-a-new-hope-episode-iv/12fVeZxD2fWJ", image_url:"https://legendsrevealed.com/entertainment/wp-content/uploads/2015/05/star_wars_iv___a_new_hope___movie_poster_by_nei1b-d5t3cw9.jpg")
 
-movie3 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
+movie3 = Movie.create!(title:"Indiana Jones: Raiders of the Lost Ark", director:"Steven Spielberg", genre:"Adventure", release_year: "1981", purchase_url:"https://www.amazon.com/gp/video/detail/amzn1.dv.gti.fea9f760-ca31-43ec-e51b-75ad7db01298?autoplay=1&ref_=atv_cf_strg_wb", image_url:"https://musicimage.xboxlive.com/catalog/video.movie.8D6KGWXN8PVK/image?locale=en-us&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg")
 
-movie4 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
+movie4 = Movie.create!(title:"The Lord of the Rings: The Fellowship of the Ring", director:"Peter Jackson", genre:"Fantasy/Adventure", release_year: "2001", purchase_url:"https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5ea9f763-c51d-5ea0-d40c-6fe4cd576b22?autoplay=1&ref_=atv_cf_strg_wb", image_url:"https://resizing.flixster.com/AuhqgltN8qxQasbGEsmF4FBEM10=/206x305/v2/https://flxt.tmsimg.com/assets/p28828_p_v10_am.jpg")
 
-movie5 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
+movie5 = Movie.create!(title:"The Lord of the Rings: The Two Towers", director:"Peter Jackson", genre:"Fantasy/Adventure", release_year: "2002", purchase_url:"https://www.amazon.com/Lord-Rings-Towers-Elijah-Wood/dp/B0037WP83M", image_url:"https://i.harperapps.com/hcanz/covers/9780007488322/x293.jpg")
 
-movie6 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
+movie6 = Movie.create!(title:"The Lord of the Rings: The Return of the King", director:"Peter Jackson", genre:"Fantasy/Adventure", release_year: "2003", purchase_url:"https://www.amazon.com/Lord-Rings-Return-King-Extended/dp/B005529OFA", image_url:"https://m.media-amazon.com/images/I/81lD6R3Yu6L._AC_SY679_.jpg")
 
-movie7 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
+movie7 = Movie.create!(title:"Interstellar", director:"Christopher Nolan", genre:"Sci-fi/Adventure", release_year: "2014", purchase_url:"https://www.amazon.com/Interstellar-Matthew-McConaughey/dp/B00TU9UFTS", image_url:"https://static.hd-trailers.net/images/interstellar-127916-poster-xlarge-resized.jpg")
 
-movie8 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
-
-movie9 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
-
-movie10 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
-
-movie11 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
-
-movie12 = Movie.create!(title:"The Hobbit", director:"Arthur Rankin", genre:"Fantasy", release_year: "1977", purchase_url:"https://www.amazon.com/Hobbit-Orson-Bean/dp/B00BMWJOF2", image_url:"https://m.media-amazon.com/images/I/51u5DHUw-KL._AC_.jpg")
+movie8 = Movie.create!(title:"Tenet", director:"Christopher Nolan", genre:"Action/Sci-fi", release_year: "2020", purchase_url:"https://www.amazon.com/gp/video/detail/amzn1.dv.gti.c0bac2f1-14dc-d137-7c16-c8566690e24c?autoplay=1&ref_=atv_cf_strg_wb", image_url:"https://upload.wikimedia.org/wikipedia/en/1/14/Tenet_movie_poster.jpg")
 
 puts "Seeding Books..."
 
@@ -103,18 +95,6 @@ puts "Seeding Reviews..."
 
 Review.destroy_all
 
-review1 = Review.create!(description: "Lovingly crafted animated classic following the adventures of Bilbo Baggins from J.R.R Tolkiens beloved fantasy epic 'The Hobbit'.", movie_id: movie1.id, user_id: user1.id)
-
-review2 = Review.create!(description: "Lovingly crafted animated classic following the adventures of Bilbo Baggins from J.R.R Tolkiens beloved fantasy epic 'The Hobbit'.", movie_id: movie1.id, user_id: user1.id)
-
-review3 = Review.create!(description: "Lovingly crafted animated classic following the adventures of Bilbo Baggins from J.R.R Tolkiens beloved fantasy epic 'The Hobbit'.", movie_id: movie1.id, user_id: user1.id)
-
-review4 = Review.create!(description: "Lovingly crafted animated classic following the adventures of Bilbo Baggins from J.R.R Tolkiens beloved fantasy epic 'The Hobbit'.", movie_id: movie1.id, user_id: user1.id)
-
-review5 = Review.create!(description: "Lovingly crafted animated classic following the adventures of Bilbo Baggins from J.R.R Tolkiens beloved fantasy epic 'The Hobbit'.", movie_id: movie1.id, user_id: user1.id)
-
-
-
-
+review1 = Review.create!(description: "Lovingly crafted animated classic following the adventures of Bilbo Baggins from J.R.R Tolkiens 'The Hobbit'.", movie_id: movie1.id, user_id: User.first.id)
 
 puts "Done seeding :)!"
