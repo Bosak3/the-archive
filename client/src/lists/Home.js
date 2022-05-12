@@ -6,7 +6,7 @@ function Home (){
     
     return (
     <div className="backgroundhome">
-        <img src='https://thumbs.gfycat.com/DemandingLegalFeline-max-1mb.gif' className="vaultimage"/>
+        <img src='https://thumbs.gfycat.com/DemandingLegalFeline-max-1mb.gif' alt="Lightsaber fight" className="vaultimage"/>
         <br></br>
         <br></br>
         <br></br>

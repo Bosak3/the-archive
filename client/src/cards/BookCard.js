@@ -13,7 +13,7 @@ function BookCard ({bookItem}){
             <h3>{bookItem.genre}</h3>
             <h3>{bookItem.author}</h3>
             <h3>{bookItem.release_year}</h3>
-            <a href={bookItem.purchase_url}>Read</a>
+            <a href={bookItem.purchase_url}>Read Here</a>
             <ReviewForm bookData={bookItem}/>
         </div>
 

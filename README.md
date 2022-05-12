@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application uses React as the frontend development language, and Ruby on Rails as the backend API.
 
-Things you may want to cover:
+Using a custom Rails API for the data included in my application. I also used custom CSS for the styling of my application.
 
-* Ruby version
+Users will be able to browser through movies, books and video games fetched from the Rails API backend. Utilizing client-side routing to create a seamless one-page application experience.
 
-* System dependencies
+Current CRUD actions include the ability for a user to post a review for individual movies, books or games.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

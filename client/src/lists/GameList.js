@@ -16,6 +16,9 @@ function GameList() {
     }
     useEffect(fetchFunction, [])
 
+    function RandomGame(data) {
+        return (gameData.math.random() * data.length)
+    }
 
     return (
         <div className="background">
